@@ -1,0 +1,22 @@
+.DS_Store
+/.build
+/.swiftpm
+Packages
+xcuserdata/
+*.xcodeproj
+DerivedData/
+.agents/
+.gemini/
+*.dmg
+Glancie.zip
+
+# Editor leftovers — a swap file in a PR is noise, and it can carry unsaved text.
+*.swp
+*.swo
+*~
+.*.swp
+.*.swo
+
+# Per-machine Claude Code permissions, not project configuration.
+# .claude/commands/ stays tracked on purpose: those are the shared workflows.
+.claude/settings.local.json

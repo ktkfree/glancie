@@ -1,0 +1,11 @@
+* text=auto eol=lf
+
+*.png binary
+*.icns binary
+*.zip binary
+*.dmg binary
+
+# Design and planning docs are not what the language stats should describe.
+wiki/**       linguist-documentation
+prd.md        linguist-documentation
+Plan.md       linguist-documentation
